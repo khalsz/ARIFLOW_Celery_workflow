@@ -1,13 +1,14 @@
 import paramiko
 import getpass
-
 import paramiko.ssh_exception
+from load_env import username, password, pkey_path
+
 
 class customSSHConnect:
-    def __init__(self, rsa_file_path, username, passwd) -> None:
-        self.rsa_file = rsa_file_path
+    def __init__(self) -> None:
+        self.rsa_file = pkey_path
         self.username = username
-        self.password = passwd
+        self.password = password
         self.hostname = "login-icelake.hpc.cam.ac.uk"
 
         pass
