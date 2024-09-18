@@ -1,0 +1,57 @@
+[2024-09-17T11:58:00.859+0100] {processor.py:186} INFO - Started process (PID=89826) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T11:58:00.859+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T11:58:00.860+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:00.860+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T11:58:00.906+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T11:58:01.096+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.096+0100] {override.py:1900} INFO - Created Permission View: can read on DAG:newdagsback
+[2024-09-17T11:58:01.101+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.101+0100] {override.py:1900} INFO - Created Permission View: can delete on DAG:newdagsback
+[2024-09-17T11:58:01.105+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.105+0100] {override.py:1900} INFO - Created Permission View: can edit on DAG:newdagsback
+[2024-09-17T11:58:01.111+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.111+0100] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:newdagsback
+[2024-09-17T11:58:01.114+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.114+0100] {override.py:1900} INFO - Created Permission View: can read on DAG Run:newdagsback
+[2024-09-17T11:58:01.118+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.118+0100] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:newdagsback
+[2024-09-17T11:58:01.122+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.122+0100] {override.py:1900} INFO - Created Permission View: can create on DAG Run:newdagsback
+[2024-09-17T11:58:01.122+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.122+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T11:58:01.127+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.127+0100] {dag.py:3252} INFO - Creating ORM DAG for newdagsback
+[2024-09-17T11:58:01.129+0100] {logging_mixin.py:190} INFO - [2024-09-17T11:58:01.129+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T11:58:01.137+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.284 seconds
+[2024-09-17T12:00:51.504+0100] {processor.py:186} INFO - Started process (PID=90125) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:00:51.504+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:00:51.505+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:00:51.505+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:00:51.526+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:00:51.740+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:00:51.740+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:00:51.745+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:00:51.745+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:00:51.756+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.258 seconds
+[2024-09-17T12:01:25.946+0100] {processor.py:186} INFO - Started process (PID=90183) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:01:25.947+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:01:25.947+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:01:25.947+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:01:25.973+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:01:26.091+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:01:26.091+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:01:26.097+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:01:26.097+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:01:26.106+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.164 seconds
+[2024-09-17T12:02:02.343+0100] {processor.py:186} INFO - Started process (PID=90307) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:02.349+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:02:02.350+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:02.349+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:02.394+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:02.537+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:02.537+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:02:02.543+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:02.543+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:02:02.582+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.243 seconds
+[2024-09-17T12:02:35.284+0100] {processor.py:186} INFO - Started process (PID=90378) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:35.285+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:02:35.285+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:35.285+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:35.308+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:02:35.412+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:35.412+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:02:35.417+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:02:35.417+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:02:35.425+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.148 seconds
+[2024-09-17T12:03:08.860+0100] {processor.py:186} INFO - Started process (PID=90514) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:08.862+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:03:08.864+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:08.864+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:08.889+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:09.002+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:09.002+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:03:09.007+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:09.007+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:03:09.015+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.160 seconds
+[2024-09-17T12:03:42.075+0100] {processor.py:186} INFO - Started process (PID=90618) to work on /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:42.076+0100] {processor.py:914} INFO - Processing file /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py for tasks to queue
+[2024-09-17T12:03:42.076+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:42.076+0100] {dagbag.py:587} INFO - Filling up the DagBag from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:42.126+0100] {processor.py:925} INFO - DAG(s) 'newdagsback' retrieved from /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py
+[2024-09-17T12:03:42.236+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:42.236+0100] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T12:03:42.241+0100] {logging_mixin.py:190} INFO - [2024-09-17T12:03:42.241+0100] {dag.py:4156} INFO - Setting next_dagrun for newdagsback to 2024-09-13 00:00:00+00:00, run_after=2024-09-14 00:00:00+00:00
+[2024-09-17T12:03:42.249+0100] {processor.py:208} INFO - Processing /Users/ds2718/Documents/test_python_airflow/airflow/dags/examp_dag.py took 0.178 seconds

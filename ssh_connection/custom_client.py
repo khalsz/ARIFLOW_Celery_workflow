@@ -1,22 +1,22 @@
 import paramiko
 import getpass
 import paramiko.ssh_exception
-from load_env import username, password, pkey_path
+from load_env import username, password, pkey_path, hostname
 
 
 class customSSHConnect:
-    def __init__(self) -> None:
+    def __init__(self):
         self.rsa_file = pkey_path
         self.username = username
         self.password = password
-        self.hostname = "login-icelake.hpc.cam.ac.uk"
-
+        self.hostname = hostname
         pass
 
     def client_conn(self):
         transport = paramiko.Transport(self.hostname) 
         try: 
             transport.start_client() 
+            
             priv_key = paramiko.Ed25519Key.from_private_key_file(self.rsa_file, self.password)
             if not transport.auth_publickey(self.username, priv_key): 
                 raise paramiko.ssh_exception.SSHException("Public key/username authentication failed")
@@ -36,4 +36,6 @@ class customSSHConnect:
             print(f"Error establising ssh connection with csd3")
             return None
             
-    
+if __name__ == "__main__": 
+    con = customSSHConnect().client_conn()
+    print(con)
