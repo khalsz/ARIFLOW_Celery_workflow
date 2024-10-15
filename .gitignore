@@ -1,2 +1,7 @@
 py_venv/
 .env
+airflow.db
+webserver_config.py
+scheduler/
+logs/
+dag_processor_manager/

@@ -6,7 +6,7 @@ from airflow import DAG
 default_args = {
     'owner': 'khalid', 
     'retries': 5, 
-    'retry_delay': timedelta(hours=2)
+    'retry_delay': timedelta(seconds=2)
 }
 
 @task.bash
@@ -20,7 +20,7 @@ def task2():
 @dag(
     dag_id= "newdagsback", 
     default_args=default_args, 
-    start_date=datetime(2024, 9, 12, 2), 
+    start_date=datetime(2024, 9, 23, 2), 
     schedule='@daily'
 )
 def pipeline(): 

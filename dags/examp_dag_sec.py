@@ -19,14 +19,14 @@ import os
 default_args = {
     'owner': 'khalid',
     'retries': 3,
-    'retry_delay': timedelta(minutes=5)
+    'retry_delay': timedelta(seconds=3)
 }
 
 # Defining the DAG with the @dag decorator
 @dag(
     dag_id='example_dag_decorator',
     default_args=default_args,
-    start_date=datetime(2024, 9, 1),
+    start_date=datetime(2024, 10, 1),
     schedule='@daily',  # Run daily
     catchup=False  # Disable catching up on missed runs
 )
